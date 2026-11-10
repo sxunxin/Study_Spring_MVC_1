@@ -1,0 +1,25 @@
+{
+  "name": "Spring Boot Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-gradle",
+        "k--kato.intellij-idea-keybindings",
+        "aaron-bond.better-comments",
+        "compassak.intellij-idea-new-ui"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "explicit"
+        },
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "workbench.colorTheme": "IntelliJ IDEA New UI Dark"
+      }
+    }
+  },
+  "postCreateCommand": "git config --global pull.rebase false && echo '개발 환경 준비 완료'"
+}
