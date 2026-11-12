@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ServletApplication",
+      "request": "launch",
+      "mainClass": "sxunxin.servlet.ServletApplication",
+      "projectName": "servlet",
+      "cwd": "${workspaceFolder}/servlet"
+    }
+  ]
+}
