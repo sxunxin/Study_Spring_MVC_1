@@ -5,12 +5,6 @@
       "type": "java",
       "name": "SpringmvcApplication",
       "request": "launch",
-      "mainClass": "sxunxin.springmvc.SpringmvcApplication"
-    },
-    {
-      "type": "java",
-      "name": "SpringmvcApplication",
-      "request": "launch",
       "mainClass": "sxunxin.springmvc.SpringmvcApplication",
       "projectName": "springmvc",
       "cwd": "${workspaceFolder}/springmvc"
